@@ -111,7 +111,7 @@ int main(){
 
 Burada getNameT ve getNameY adında iki tane get methodumu kullanarak üyeleri ekrana yazdırıyorum ancak şöyle bir durum var ikisinin de ismi getName() olsaydı program nasıl anlayacaktı ? Anlamıcaktı.
 
-![./pngs/multi_inh_error_.png](./pngs/multi_inh_error_.png)
+![./pngs/multi_inh_error_.png](./pngs/multi_inh_error.png)
 
 Bu durumda şu şekilde bir çağırma yapardık. 
 

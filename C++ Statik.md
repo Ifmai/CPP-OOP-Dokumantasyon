@@ -88,7 +88,7 @@ int main(){
 
 Program çıktısı :
 
-![./pngs/statik.png](C++%20Statik%20ee7887b851054df8a7390f77f175eea3/Ekran_Resmi_2024-03-02_20.43.24.png)
+![./pngs/statik.png](./pngs/statik.png)
 
 Küçük ödev :
 

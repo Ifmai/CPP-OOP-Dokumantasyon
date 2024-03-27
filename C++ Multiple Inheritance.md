@@ -55,7 +55,7 @@ int main(){
 }
 ```
 
-![./pngs/multi_inh_exec.png](C++%20Multiple%20Inheritance%203cfb6ada35cb40eaae903c85af7f7902/Ekran_Resmi_2024-03-10_OS_1.53.13.png)
+![./pngs/multi_inh_exec.png](./pngs/multi_inh_exec.png)
 
 Burada gördüğünüz gibi YaziciVeTarayici sınıfını ürettiğimizde Yazici ve Tarayici sınıfının default c*onstructor çalışıcaktır. Çünkü iksinide miras olarak aldığı için böyle bir durum gerçekleşiyor.*
 
@@ -111,7 +111,7 @@ int main(){
 
 Burada getNameT ve getNameY adında iki tane get methodumu kullanarak üyeleri ekrana yazdırıyorum ancak şöyle bir durum var ikisinin de ismi getName() olsaydı program nasıl anlayacaktı ? Anlamıcaktı.
 
-![./pngs/multi_ing_error.png](C++%20Multiple%20Inheritance%203cfb6ada35cb40eaae903c85af7f7902/Ekran_Resmi_2024-03-10_OS_2.31.17.png)
+![./pngs/multi_ing_.png](./pngs/multi_ing_.png)
 
 Bu durumda şu şekilde bir çağırma yapardık. 
 

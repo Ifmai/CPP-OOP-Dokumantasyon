@@ -12,9 +12,9 @@
     - Referans Kullanımının Avantajları
     - Fonksiyon türlerini ve tanımlamaları
 
-*Şimdi OOP’ye girmeden önce C++ dilinde kullanılan “**namespace**” adında ki uzay boşluğumuzdan bahsedelim. [Buraya Tıklayarak Gidebilirsin.](https://www.notion.so/Namespace-40f15b2c78bc40b29e14000040095c13?pvs=21)*
+*Şimdi OOP’ye girmeden önce C++ dilinde kullanılan “**namespace**” adında ki uzay boşluğumuzdan bahsedelim. [Buraya Tıklayarak Gidebilirsin.](https://github.com/Ifmai/CPP-OOP-Dokumantasyon/blob/main/C%2B%2B%20Namespace.md)*
 
-Dip not : Eğer bu sayfayı daha önce okuduysan sayfanın sonundaki Page Db sayfasından veya [***şuraya***](https://www.notion.so/C-Page-DB-6787f893909a4dd384cf35cb2d5ea021?pvs=21) tıklayarak gidebilirsin. 
+Dip not : Eğer bu sayfayı daha önce okuduysan (Notion) [***şuraya***](https://www.notion.so/C-Page-DB-6787f893909a4dd384cf35cb2d5ea021?pvs=21) tıklayarak gidebilirsin. 
 
 ---
 
@@ -227,7 +227,3 @@ int main(){
 Özetle temel seviyede Class ve nesneler ile nasıl basit şeyler yapabileceğimi gördük. 
 
 Şimdi basit temel kısmı bitirdik. Burayı tamamen anladıysan bir sonraki kısma geçebiliriz. 😊
-
-- ***C++ OPP Database***
-    
-    [C++ Page DB](https://www.notion.so/C-Page-DB-6787f893909a4dd384cf35cb2d5ea021?pvs=21)

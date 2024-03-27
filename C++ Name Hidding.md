@@ -14,4 +14,4 @@ int main(){
 
 Ogrenci sınıfı ise içerisinde sadece ogrenciNo barındırmaktadır ancak sizeof sonucu 32 byte çıkıcaktır. Human sınıfınıda içerisinde barındırdığından ötürü toplamda 4 string barındırmış oluyor. Bu yüzde 4 * 8 = 32 byte yer tutmuş oluyor ramde. Burada name hidding olayı ise Human adına olmaktadır. Human sınıfını gizlemiş oluyoruz bir nevi. Bu olaya name hidding adı veriliyor. 🙂 
 
-![Ekran Resmi 2024-03-05 19.22.30.png](C++%20Name%20Hidding%202d8b18b4ba7b44cf8cbbaf700290c38f/Ekran_Resmi_2024-03-05_19.22.30.png)
+![./pngs/namehidding.png](C++%20Name%20Hidding%202d8b18b4ba7b44cf8cbbaf700290c38f/Ekran_Resmi_2024-03-05_19.22.30.png)

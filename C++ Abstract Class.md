@@ -191,4 +191,4 @@ Sekiller sınıfı içerisinde “alan ve çevre” tanımlayarak abstract sın�
 
 Daha iyi ve net anlamak için örneği bir “.cpp” dosyasında çalıştırarak üstünde oynama yaparak nasıl sonuçlar alabileceğinizi görmektir. Mesela sekiller sınıfından bir nesne üretmeye çalışarak şu hatayı görebilirisniz.
 
-![Ekran Resmi 2024-03-26 21.23.18.png](C++%20Abstract%20Class%20bded5e81aac143f696f533eb147008bd/Ekran_Resmi_2024-03-26_21.23.18.png)
+![./pngs/abstract_class.png](C++%20Abstract%20Class%20bded5e81aac143f696f533eb147008bd/Ekran_Resmi_2024-03-26_21.23.18.png)

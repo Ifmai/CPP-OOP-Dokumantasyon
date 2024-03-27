@@ -4,7 +4,7 @@
 
 İlk başta Diamon Problemi neden olur?
 
-![Ekran Resmi 2024-03-10 17.09.13.png](C++%20Diamond%20Problem%20a4f91cc7d3184697a1eb79d80f814acc/Ekran_Resmi_2024-03-10_17.09.13.png)
+![./pngs/diamond_problem.png](C++%20Diamond%20Problem%20a4f91cc7d3184697a1eb79d80f814acc/Ekran_Resmi_2024-03-10_17.09.13.png)
 
 D sınıfı içerisinden A sınıfına ait bir üyeyi kullanırsanız diamond problemi dediğimiz soruna neden olmaktadır. Bu sorun neden kaynaklanır?
 

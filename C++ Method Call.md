@@ -41,11 +41,11 @@ Bu sayfada bir türemiş sınıftan taban sınıfın Constructor’larını kull
     - Protected → Protected.
     - Public → Protected olarak aktarılacaktır türemiş sınıfa.
     
-    ![Ekran Resmi 2024-03-07 11.12.37.png](C++%20Method%20Call%203de95d3548ae4bb9a4838b6f9ba3be99/Ekran_Resmi_2024-03-07_11.12.37.png)
+    ![Ekran Resmi 2024-03-07 11.12.37.png](./pngs/method_call_3.png)
     
-    ![Ekran Resmi 2024-03-07 11.12.09.png](C++%20Method%20Call%203de95d3548ae4bb9a4838b6f9ba3be99/Ekran_Resmi_2024-03-07_11.12.09.png)
+    ![Ekran Resmi 2024-03-07 11.12.09.png](./pngs/method_call_2.png)
     
-    ![Ekran Resmi 2024-03-07 11.11.40.png](C++%20Method%20Call%203de95d3548ae4bb9a4838b6f9ba3be99/Ekran_Resmi_2024-03-07_11.11.40.png)
+    ![Ekran Resmi 2024-03-07 11.11.40.png](./pngs/method_call_1.png)
     
 
 - Constructor Called
@@ -184,11 +184,11 @@ Bu sayfada bir türemiş sınıftan taban sınıfın Constructor’larını kull
     
     - İkinci durum ise  eğer bir türemiş sınıf üretirseniz ve yukardaki gibi protected miras alıp atama işlemlerini Taban sınıfın constructor’ını kullanmadan yaparsanız veya bunu yapmak saçma olucaktır ancak Human sınıfına ait herhangi bir üye veya method kullanmasanız dahi Human sınıfını miras aldığımız için “***Taban sınıfa ait olan Default Constructor Çalışacaktır*** ” ve hatta bu kodun ekran çıktısında aşağıdaki gibi görüceksiniz.
         
-        ![Ekran Resmi 2024-03-07 11.53.53.png](C++%20Method%20Call%203de95d3548ae4bb9a4838b6f9ba3be99/Ekran_Resmi_2024-03-07_11.53.53.png)
+        ![Ekran Resmi 2024-03-07 11.53.53.png](./pngs/method_call_4.png)
         
         Bunun nedeni ise sizin Ogrenci sınıfını üretebilmeniz için ilk başta Human sınıfına ihtiyacınız olamasıdır. Constructorlar bir sınıf üretilirken otomatik olarak çalışan methodlar olduğu için biz burada ne kadar ogrenci sınıfını üretmek istesekte Human Constructor da çalışacaktır. Aynı zamanda burada ***Human Default Constructor yazmak zorunludur.*** Yazmadığınızda şöyle bir hata ile karşılaşırsınız.
         
-        ![Ekran Resmi 2024-03-07 11.59.13.png](C++%20Method%20Call%203de95d3548ae4bb9a4838b6f9ba3be99/Ekran_Resmi_2024-03-07_11.59.13.png)
+        ![Ekran Resmi 2024-03-07 11.59.13.png](./pngs/method_call_5.png)
         
         Biz burada Human sınıfından miras almış bir sınıf ürettiğimiz için Human sınıfına ait bir Constructor arıyor program. Default olmasada normal bir constructor’ımız var evet ama onu biz çağırmadığımız için default constructor’a yöneliyor.
         
@@ -249,7 +249,7 @@ Bu sayfada bir türemiş sınıftan taban sınıfın Constructor’larını kull
     
     Burada olan şey şu normalde c++ da copy constructor default olarak vardır. (Bazı standartlarda yok bu yüzden manuel yazmanız gerekebiliyor. Örneğin 98 standartında.) Burada ki copy constructor’ı silerseniz aynı adreslere sahip olduklarını görüceksiniz. Ancak burada ki ekran çıktısında durum böyle değil. 
     
-    ![Ekran Resmi 2024-03-08 ÖS 6.18.25.png](C++%20Method%20Call%203de95d3548ae4bb9a4838b6f9ba3be99/Ekran_Resmi_2024-03-08_OS_6.18.25.png)
+    ![Ekran Resmi 2024-03-08 ÖS 6.18.25.png](./pngs/method_call_6.png)
     
     Burada gördüğünüz gibi adresler farklı gözükmektedir. Bunun nedeni kendi copy constructorımızı yazdığımız için yeni int ile yer ayırarak yeni bir adrese kaydediyoruz. Bu işlemede deep copy deniyor. Diğer türlü default copy constructor shallow copy dediğimiz işlemi yapmaktadır ve eğer ilk oluşturduğumuz nesne silinip içerisinde ki adress freelenirse copy constructor’da ki int pointerın tuttuğu adreste silinicektir ve hata alırız. Deep copy bu tür durumlarda kullanılan bir yöntemdir. Atama operatörüde yazsak yine aynı şekilde çalışacaktır. 
     

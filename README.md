@@ -1,5 +1,3 @@
-# C++ OOP Dökümantasyon İçerik Listesi.
-
 Bu dökümantasyonda C++ OOP hakkındaki neredeyse tüm konuları görüceksiniz. Başlangıçtan uyarmak istiyorum dökümantason hiç bir şekilde kodlama bilmeyen birine hitap edecek şekilde yazılmamıştır.
 
 ### Bu dökümantason boyunca görüceğiniz konular adım adım şu şekildedir.

@@ -88,7 +88,7 @@ int main(){
 
 Program çıktısı :
 
-![./pngs/statik.png](./pngs/statik.png)
+![./pngs/statik.png](./pngs/statik_ekran_ciktisi.png)
 
 Küçük ödev :
 
